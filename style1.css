@@ -1,20 +1,13 @@
+body{
+    margin:0;
+    position:relative;
+}
 .layer1{
     background-color:rgb(165, 31, 165);
     height:100vh;
     z-index: 7;
 }
-body{
-    margin:0;
-    position:relative;
-}
 
-.heading{
-    color:rgb(87, 243, 230) ;
-    margin:0;
-    width:190px;
-    height:27px;
-    font-size: 19px;
-}
 .layer2{
     top:15%;
     left:15%;
@@ -24,30 +17,7 @@ body{
    background-color:rgb(87, 243, 230) ; 
    z-index: 9;
 }
-.username{
-    width:190px;
-    height:27px;
-    padding: 0;
-}
-.password{
-    width:190px;
-    height:27px;
-    padding: 0;
-    
-}
-.btn{
-    width:190px;
-    height:27px;
-    padding: 0;
-   
-  
-    
-}
-.btn:hover{
-    background-color:rgb(87, 243, 230) ;
-    border: 0;
-    color:white;
-}
+
 .loginUi{
     top:30%;
     left:30%;
@@ -63,6 +33,36 @@ body{
     z-index: 10;
 
 }
-input{
 
+
+.heading{
+    color:rgb(87, 243, 230) ;
+    margin:0;
+    width:190px;
+    height:27px;
+    font-size: 19px;
+}
+
+.username{
+    width:190px;
+    height:27px;
+    padding: 0;
+}
+.password{
+    width:190px;
+    height:27px;
+    padding: 0;
+}
+.btn{
+    width:190px;
+    height:27px;
+    padding: 0;
+   
+  
+    
+}
+.btn:hover{
+    background-color:rgb(87, 243, 230) ;
+    border: 0;
+    color:white;
 }
